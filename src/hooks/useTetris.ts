@@ -216,9 +216,8 @@ export function useTetris() {
           isPressingRight = false;
         }
         updateMovementInterval();
+        setTickSpeed(TickSpeed.Normal);
       }
-      if (deltaY > 0)
-        setTickSpeed(TickSpeed.Fast);
     };
 
     const handleTouchEnd = () => {      
