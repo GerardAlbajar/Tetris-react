@@ -24,6 +24,7 @@ export const StyledApp = styled.div`
         }
 
         .controls {
+            min-width: 125px;
             display: flex;
             flex-direction: column;
             gap: 10px;
